@@ -12,6 +12,12 @@ html, body {
   height: 100%;
 }
 
+#header {
+  text-align: center;
+  padding: 60px;
+  border-bottom: solid 5px #ffffff;
+}
+
 a {
   color: #ffffff;
   text-decoration: none;
@@ -20,11 +26,11 @@ a {
 #grid {
   display: grid;
   grid-template-columns: 300px 1fr;
+  margin: 30px 10px 0 10px;
 }
 
 ul.table {
   padding: 0;
-  margin: 10px;
   width: 300px;
 }
 
@@ -58,7 +64,3 @@ li:hover {
   padding: 30px;
 }
 
-h1 {
-  text-align: center;
-  padding: 60px;
-}
